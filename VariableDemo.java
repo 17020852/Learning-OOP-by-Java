@@ -28,9 +28,9 @@ public class VariableDemo {
         System.out.println("x = " + x);
         System.out.println("y = " + y);
         System.out.println("z = x + y = " + z);
-        System.out.println("So nho hon la: " + Math.min(x, y));
+        System.out.println("Number lower is: " + Math.min(x, y));
         char c = 80;
-        System.out.println("Ki tu c la: " + c);
+        System.out.println("Character is: " + c);
         int n = 0;
         try {
             BufferedReader in  = new BufferedReader(new InputStreamReader(System.in));
@@ -38,9 +38,9 @@ public class VariableDemo {
             s = in.readLine();
             n = Integer.parseInt(s);
         } catch (IOException | NumberFormatException e) {
-            System.out.println("Nhap du lieu bi loi !");
+            System.out.println("Input error !");
         }
-        System.out.println("Ban vua nhap so: " + n);
+        System.out.println("This is: " + n);
         int arrInt[] = new int[10];
         int i;
         int j;
@@ -63,7 +63,7 @@ public class VariableDemo {
            if (kt == 1) break;
         }
         if (kt == 1) 
-            System.out.println("So can tim lam: " + arrInt[ct]);
+            System.out.println("Number is : " + arrInt[ct]);
         else System.out.println(-1);
         
     }
