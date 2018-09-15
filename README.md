@@ -1,2 +1,5 @@
 # learn-Java
-This is the first  my project use java to creat a android app
+Learning Object-Oriented-Programming
+Teacher: Mr.Nhan
+Practical content
+https://docs.google.com/document/d/1sp3Tdp90V33XcfuABl0w_rQdlt4rzBK6FKXHQVRCzK4/edit
