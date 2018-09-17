@@ -21,6 +21,7 @@ public class StudentManager {
         return s1.getGroup().equals(s2.getGroup());
     }
     
+    //When numberStudent < 100 add a student
     public void addStudent(Student s) {
         if(countStudent<100) {
             students[countStudent] = s;
@@ -32,6 +33,13 @@ public class StudentManager {
     }
     
     //Show students by group
+    /*
+    Check the student in the list with number of the list is countStudent
+    Use variable check, initilize = true;
+    when any class name student in list className set check = false
+    else add the student's class name in the list ClassName and numberclass++
+    after find out all off the className show on Screen
+    */
     public void studentsByGroup() {
        
         for (int index = 0; index < countStudent; index++) {
@@ -62,6 +70,10 @@ public class StudentManager {
     }
 
     //Remove a Student
+    /* Find id in the list student
+    When find out move student[j] = student[j+1] from studnet is found to remove
+    Every student has a id, nobody has the same id beacuse use break
+    */
     public void removeStudent(String id) {
         for (int i = 0; i < countStudent; i++) {
             if (students[i].getId().equals(id)) {
