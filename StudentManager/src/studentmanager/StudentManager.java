@@ -22,7 +22,7 @@ public class StudentManager {
     }
     
     public void addStudent(Student s) {
-        if(countStudent<=100) {
+        if(countStudent<100) {
             students[countStudent] = s;
             countStudent++;
         }
