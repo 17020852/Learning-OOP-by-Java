@@ -22,7 +22,10 @@ public class Student {
     
     public Student(Student s)
     {
-        
+        this.id = s.getId();
+        this.name = s.getname();
+        this.email = s. getEmail();
+        this.group = s.getgroup();
     }
     
     public void setId(String id) {
