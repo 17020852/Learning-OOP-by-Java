@@ -1,7 +1,7 @@
 # learn-Java
 Learning Object-Oriented-Programming
 
-Teacher: Mr.Nhan
+Teacher: Mrs.Nhan
 
 Practical content
 
