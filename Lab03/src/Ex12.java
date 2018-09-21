@@ -1,9 +1,10 @@
+package Lab03;
 import java.util.Scanner;
 
 public class Ex12 {
     //Cau a viet ham tinh UCLN cua a va b
-    public int gcd(int a, int b) {
-        int i = (b == 0) ? a : gcd(b, a % b);
+    public int GCD(int a, int b) {
+        int i = (b == 0) ? a : GCD(b, a % b);
         return i;
     }
     // Cau b viet ham tra ve só fibonacci thu n
@@ -21,7 +22,7 @@ public class Ex12 {
 
         Ex12 x = new Ex12();
 
-        System.out.println("Uoc chung lon nhat cua hai so " + a + "," + b + " la:" +x.gcd(a,b));
+        System.out.println("Uoc chung lon nhat cua hai so " + a + "," + b + " la:" +x.GCD(a,b));
         System.out.println("So fibonacci thu " + n + " la:" +x.fibonacci(n));
 
     }
