@@ -35,7 +35,7 @@ public class StudentManager {
     //Show students by group
     /*
     Check the student in the list with number of the list is countStudent
-    Use variable check, initilize = true;
+    Use variable check, initialize = true;
     when any class name student in list className set check = false
     else add the student's class name in the list ClassName and numberclass++
     after find out all off the className show on Screen
@@ -72,7 +72,7 @@ public class StudentManager {
     //Remove a Student
     /* Find id in the list student
     When find out move student[j] = student[j+1] from studnet is found to remove
-    Every student has a id, nobody has the same id beacuse use break
+    Every student has a id, nobody has the same id because use break
     */
     public void removeStudent(String id) {
         for (int i = 0; i < countStudent; i++) {
