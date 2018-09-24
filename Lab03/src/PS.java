@@ -1,3 +1,4 @@
+//bai 2 tao class phan so, va cac phuong thuc cong tru nhan chia rut gon tren phan so
 import Lab03.Ex12;
 public class PS {
     private int tu;
@@ -40,6 +41,9 @@ public class PS {
         this.mau = mau;
     }
     //Ham rut gon PS
+    // Tim uoc chung lon nht cua tu va mau
+    // Sau do chia ca tu va mau cho UCLN
+    //phuong thuc GCD duoc dinh nghia o class EX1(bai1)
     public PS rutgon() {
         Ex12 temp = new Ex12();
         int gcd = temp.GCD(this.tu, this.mau);
@@ -75,6 +79,8 @@ public class PS {
         t.mau = this.mau * x.tu;
         return t.rutgon();
     }
+    // Ham kiem tra xem hai phan so co bang nhau khong
+    // Ban dau rut gon hai phan so sau do so sanh hai tu va mau cua phan so sau khi rut gon
     public boolean equals(PS x) {
         x.rutgon();
         this.rutgon();
