@@ -5,7 +5,7 @@ public class Teacher {
     private String name;
     private String subject;
     private String address;
-    private int salary;
+    private float salary;
 
     public Teacher(int age,String name, String subject, String address, int salary) {
         this.age = age;

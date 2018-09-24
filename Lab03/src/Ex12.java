@@ -2,12 +2,12 @@ package Lab03;
 import java.util.Scanner;
 
 public class Ex12 {
-    //Cau a viet ham tinh UCLN cua a va b
+    //Cau a viet ham tinh UCLN cua a va b su dung de quy
     public int GCD(int a, int b) {
         int i = (b == 0) ? a : GCD(b, a % b);
         return i;
     }
-    // Cau b viet ham tra ve só fibonacci thu n
+    // Cau b viet ham tra ve só fibonacci thu n su dung de quy
     public int fibonacci(int n) {
         if (n<=1) return n;
         else return fibonacci(n-1) + fibonacci(n-2);

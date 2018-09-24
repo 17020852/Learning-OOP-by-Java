@@ -43,8 +43,9 @@ public class PS {
     //Ham rut gon PS
     // Tim uoc chung lon nht cua tu va mau
     // Sau do chia ca tu va mau cho UCLN
-    //phuong thuc GCD duoc dinh nghia o class EX1(bai1)
+    //phuong thuc GCD duoc dinh nghia o class EX12(bai1)
     public PS rutgon() {
+
         Ex12 temp = new Ex12();
         int gcd = temp.GCD(this.tu, this.mau);
         this.tu = this.tu/gcd;
@@ -94,8 +95,16 @@ public class PS {
         System.out.println(ps1.equals(ps2));
         PS ps3 = new PS();
         ps3 = ps1.nhan(ps2);
+        System.out.println("Ket qua nhan:");
         ps3.getPS();
         ps3 = ps1.add(ps2);
+        System.out.println("ket qua cong:");
+        ps3.getPS();
+        ps3 = ps1.chia(ps2);
+        System.out.println("Ket qua chia:");
+        ps3.getPS();
+        ps3 = ps1.tru(ps2);
+        System.out.println("Ket qua tru:");
         ps3.getPS();
     }
 
