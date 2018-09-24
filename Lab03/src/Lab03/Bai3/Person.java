@@ -1,4 +1,4 @@
-package Bai3;
+package Lab03.Bai3;
 
 public class Person {
     private int age;
