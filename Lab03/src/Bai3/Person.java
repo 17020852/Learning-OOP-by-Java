@@ -1,18 +1,24 @@
+package Bai3;
+
 public class Person {
     private int age;
     private String name;
     private String address;
     private float height;
     private float weight;
+    private String colorEye;
 
-    public Person(int age, String name, String address, float height, float weight) {
+    //Constructor
+    public Person(int age, String name, String address, float height, float weight, String colorEye) {
         this.age = age;
         this.name = name;
         this.address = address;
         this.height = height;
         this.weight = weight;
+        this.colorEye = colorEye;
     }
-
+    //Setter and Getter
+    //age
     public int getAge() {
         return age;
     }
@@ -20,7 +26,7 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
-
+     //Address
     public String getAddress() {
         return address;
     }
@@ -29,6 +35,7 @@ public class Person {
         this.address = address;
     }
 
+    //name
     public String getName() {
         return name;
     }
@@ -37,6 +44,7 @@ public class Person {
         this.name = name;
     }
 
+    //height
     public float getHeight() {
         return height;
     }
@@ -45,11 +53,21 @@ public class Person {
         this.height = height;
     }
 
+    //Weight
     public float getWeight() {
         return weight;
     }
 
     public void setWeight(float weight) {
         this.weight = weight;
+    }
+    //colorEye
+
+    public void setColorEye(String colorEye) {
+        this.colorEye = colorEye;
+    }
+
+    public String getColorEye() {
+        return colorEye;
     }
 }
