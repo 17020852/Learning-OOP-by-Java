@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Ex12 {
     //Cau a viet ham tinh UCLN cua a va b su dung de quy
+    //GCD : general common divisor
     public int GCD(int a, int b) {
         int i = (b == 0) ? a : GCD(b, a % b);
         return i;
