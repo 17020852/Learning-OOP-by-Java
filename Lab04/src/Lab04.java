@@ -16,8 +16,8 @@ public class Lab04 {
         }
         return min;
     }
-    static String BMI(float weight, float height) {
-        float bmi = weight / (height*height);
+    static String BMI(double weight, double height) {
+        double bmi = weight / (height*height);
         if (bmi < 18.5) return "Thieu can";
         else if (18.5 <=bmi && bmi <23) return "Binh thuong";
         else if (23<= bmi && bmi <=24.99) return "Thua can";
