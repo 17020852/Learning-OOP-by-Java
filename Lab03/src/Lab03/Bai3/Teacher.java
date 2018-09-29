@@ -51,11 +51,11 @@ public class Teacher {
         return address;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(float salary) {
         this.salary = salary;
     }
 
-    public int getSalary() {
+    public float getSalary() {
         return salary;
     }
 }
