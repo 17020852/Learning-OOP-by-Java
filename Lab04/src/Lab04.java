@@ -1,3 +1,8 @@
+/*Neu mot phuong thuc duoc khai bao voi tu khoa static thi co the truy cap truc tiep thong qua ten lop
+  * ma khong can phai tao ra 1 doi tuong
+  */
+//Mot phuong thuc static khong the su dung tu khoa this và super
+
 public class Lab04 {
     static int FindMax(int a, int b) {
         if (a>b) {

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6cd919eb-695a-4de7-80a0-8ebaf642edc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestBMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestBMI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestMinimum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMinimum.java" afterDir="false" />
@@ -29,7 +30,7 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1778" />
+          <entry key="java" value="2030" />
           <entry key="txt" value="71" />
         </counts>
       </usages-collector>
@@ -41,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1778" />
+          <entry key="JAVA" value="2030" />
           <entry key="PLAIN_TEXT" value="71" />
         </counts>
       </usages-collector>
@@ -55,23 +56,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestMaximum.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab04.java">
+        <entry file="file://$PROJECT_DIR$/src/TestMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestMinimum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,13 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestBMI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,10 +133,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Maximum.java" />
-        <option value="$PROJECT_DIR$/src/Lab04.java" />
         <option value="$PROJECT_DIR$/src/TestMaximum.java" />
         <option value="$PROJECT_DIR$/src/TestMinimum.java" />
         <option value="$PROJECT_DIR$/src/TestBMI.java" />
+        <option value="$PROJECT_DIR$/src/Lab04.java" />
       </list>
     </option>
   </component>
@@ -167,7 +184,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538374656883" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538375832327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -237,7 +254,7 @@
       <updated>1538226744837</updated>
       <workItem from="1538226776318" duration="5512000" />
       <workItem from="1538354980663" duration="516000" />
-      <workItem from="1538370120804" duration="1222000" />
+      <workItem from="1538370120804" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="update Lab04">
       <created>1538228846296</created>
@@ -274,16 +291,17 @@
       <option name="project" value="LOCAL" />
       <updated>1538370287053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Lab04">
+      <created>1538374676615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538374676615</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMaximum - 2018.09.29 at 20h 41m 52s.xml">
-      <configuration name="TestMaximum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMaximum - 2018.09.29 at 20h 43m 56s.xml">
-      <configuration name="TestMaximum" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMaximum - 2018.09.29 at 20h 44m 24s.xml">
       <configuration name="TestMaximum" configurationId="JUnit" />
     </history-entry>
@@ -305,9 +323,18 @@
     <history-entry file="TestMaximum - 2018.09.29 at 21h 42m 14s.xml">
       <configuration name="TestMaximum" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMaximum - 2018.10.01 at 13h 14m 07s.xml">
+      <configuration name="TestMaximum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMinimum - 2018.10.01 at 13h 15m 58s.xml">
+      <configuration name="TestMinimum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBMI - 2018.10.01 at 13h 17m 39s.xml">
+      <configuration name="TestBMI" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7250000" />
+    <option name="totallyTimeSpent" value="8543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -357,27 +384,26 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Maximum.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestMinimum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -386,11 +412,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestBMI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
