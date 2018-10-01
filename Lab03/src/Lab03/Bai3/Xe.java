@@ -1,15 +1,15 @@
 package Lab03.Bai3;
 
 public class Xe {
-    private int soxe;
+    private int number;
     private String name;
     private String model;
     private String year;
     private String color;
 
     //contructor
-    public Xe(int soxe, String name, String model, String year, String color) {
-        this.soxe = soxe;
+    public Xe(int number, String name, String model, String year, String color) {
+        this.number = number;
         this.name = name;
         this.model = model;
         this.year = year;
@@ -17,14 +17,14 @@ public class Xe {
 
     }
     //Setter and Getter
-    //soxe
+    //number
 
     public void setSoxe(int soxe) {
-        this.soxe = soxe;
+        this.number = soxe;
     }
 
     public int getSoxe() {
-        return soxe;
+        return number;
     }
     //name
 
