@@ -1,6 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class TestBMI {
+    //Xac nhan rang thong bao ve can nang tinh theo chi so BMI chinh xac
     @Test
     public void Test_case_01() {
         assertEquals("Thieu can", Lab04.BMI(45, 1.6));

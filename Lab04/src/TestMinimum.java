@@ -1,6 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class TestMinimum {
+    //Xac nhan rang Min duoc tinh chinh xac
     @Test
     public void TestMin_01() {
         int[] arr01 = {100, 1, 12, 3, 4, 16};

@@ -2,7 +2,7 @@
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class TestMaximum {
-
+    //Xac nhan rang Max duoc tinh chinh xac
     @Test
     public void TestMax01() {
 
