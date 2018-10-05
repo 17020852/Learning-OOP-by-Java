@@ -5,7 +5,7 @@
 //Mot phuong thuc static khong the su dung tu khoa this và super
 
 public class Lab04 {
-    static int FindMax(int a, int b) {
+    static int max(int a, int b) {
         if (a>b) {
             return a;
         }
@@ -13,7 +13,7 @@ public class Lab04 {
             return b;
         }
     }
-    static int FindMin(int[] ar, int n) {
+    static int minOfArray(int[] ar, int n) {
         int min = ar[0];
         for (int i=1; i<n; i++) {
             if (ar[i] < min) {
@@ -22,7 +22,7 @@ public class Lab04 {
         }
         return min;
     }
-    static String BMI(double weight, double height) {
+    static String calculateBMI(double weight, double height) {
         double bmi;
         bmi = weight / (height*height);
         if (bmi < 18.5) return "Thieu can";
