@@ -1,5 +1,5 @@
-##Learning OOP with Java
-#Learning Object-Oriented-Programming
+## Learning OOP with Java
+# Learning Object-Oriented-Programming
 
 - Theory Teacher: Vu Thi Hong Nhan
 - Practical teacher: Nguyen Ngoc Son
