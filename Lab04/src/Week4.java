@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Random;
-import java.util.Random.*;
 import java.util.Scanner;
 
 public class Week4 {
@@ -12,15 +11,15 @@ public class Week4 {
         int count = 0;
         boolean check = false;
         while (count <10 && !check) {
-            int x;
+            int guess;
             System.out.println("Enter a number:");
             Scanner scanner = new Scanner(System.in);
-            x = scanner.nextInt();
-            if (x == mark) {
+            guess = scanner.nextInt();
+            if (guess == mark) {
                 System.out.println("Correct!");
                 check = true;
             }
-            else if (x<mark){
+            else if (guess<mark){
                 if (count <9) {
                     System.out.println("Too low! Try again!");
                 }

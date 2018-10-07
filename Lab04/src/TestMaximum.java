@@ -1,6 +1,6 @@
-
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 public class TestMaximum {
     //Xac nhan rang Max duoc tinh chinh xac
     @Test
