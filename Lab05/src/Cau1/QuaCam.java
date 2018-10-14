@@ -2,11 +2,12 @@ package Cau1;
 
 public class QuaCam extends HoaQua{
 
+    // Constructor
     public QuaCam(String ten, String xuatXu, double soLuong) {
         super(ten, xuatXu, soLuong);
         this.setGiaCam();
     }
-    
+    // Ham thiet lap gia cam theo loai Cam
     private void setGiaCam() {
         String loaiCam = this.getXuatXu();
         if (loaiCam.equalsIgnoreCase("Trung Quoc")) {
@@ -16,14 +17,5 @@ public class QuaCam extends HoaQua{
             this.setGia(50000.0);
         }
     }
-
-    @Override
-    public String toString() {
-        return (this.getTen() + "\tXuat Xu: " + this.getXuatXu() + "\tGia: " +
-                this.getGia() + "\tSo luong: " + this.getSoLuong() + "\tSo tien: " + this.tinhTien());
-    }
-    
-    
-    
-    
+ 
 }

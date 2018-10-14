@@ -1,12 +1,13 @@
 package Cau1;
 
 public class QuaTao extends HoaQua{
-
+    
+    //Constructor
     public QuaTao(String ten, String xuatXu, double soLuong) {
         super(ten, xuatXu, soLuong);
         this.setGiaTao();
     }
-
+    //Ham set gia theo xuat xu
     private void setGiaTao() {
         if (this.getXuatXu().equalsIgnoreCase("Nhat Ban")) {
             this.setGia(70000.0);
@@ -15,11 +16,6 @@ public class QuaTao extends HoaQua{
             this.setGia(80000.0);
         }
     } 
-    @Override
-   public String toString() {
-        return (this.getTen() + "\tXuat Xu: " + this.getXuatXu() + "\tGia: " +
-                this.getGia() + "\tSo luong: " + this.getSoLuong() + "\tSo tien: " + this.tinhTien());
-    }
-    
+
     
 }

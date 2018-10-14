@@ -2,10 +2,11 @@ package Cau1;
 
 public class CamCaoPhong extends QuaCam{
     public double hlVitaminC;
+    //Constructor
     public CamCaoPhong(String ten, String xuatXu, double soLuong) {
         super(ten, xuatXu, soLuong);
     }
-
+    //Ham Set va get ham luong vitamin C
     public void setHlVitaminC(double hlVitaminC) {
         this.hlVitaminC = hlVitaminC;
     }
@@ -13,10 +14,5 @@ public class CamCaoPhong extends QuaCam{
     public double getHlVitaminC() {
         return hlVitaminC;
     }
-    @Override
-   public String toString() {
-        return (this.getTen() + "\tXuat Xu: " + this.getXuatXu() + "\tGia: " +
-                this.getGia() + "\tSo luong: " + this.getSoLuong() + "\tSo tien: " + this.tinhTien());
-    }
-    
+
 }

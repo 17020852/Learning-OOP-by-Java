@@ -70,5 +70,12 @@ public class HoaQua {
         }
         else return -1;
     }
+    // Ham tra ve string cac gia tri cua Qua do
+    @Override
+    public String toString() {
+        return (this.getTen() + "\tXuat Xu: " + this.getXuatXu() + "\tGia: " +
+                this.getGia() + "\tSo luong: " + this.getSoLuong() + "\tSo tien: " + this.tinhTien());
+    }
+    
     
 }
