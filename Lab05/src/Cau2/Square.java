@@ -1,7 +1,7 @@
 package Cau2;
 
 public class Square extends Rectangle{
-    double side;
+    private double side;
     /**
      * Constructor
      */
@@ -9,12 +9,12 @@ public class Square extends Rectangle{
        super();
     }
     public Square(double side) {
+        super(side, side);
         this.side = side;
     }
     public Square(double side, String color, boolean filled) {
-        this.side = side;
-        this.color = color;
-        this.filled = filled;
+        super(side, side, color, filled);
+         this.side = side;
     }
     /**
      * Getter side

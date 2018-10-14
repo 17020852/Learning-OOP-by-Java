@@ -61,13 +61,13 @@ public class Rectangle extends Shape{
     public double getPerimeter() {
         return 2 * (width + length);
     }
-
+    /**
+     * Method toString
+     * @return 
+     */
     @Override
     public String toString() {
         return "Rectangle{" + "width=" + width + ", length=" + length + ", color=" + color + ", filled=" + filled + '}';
     }
-    /**
-     * Method toString
-     */
     
 }
