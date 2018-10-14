@@ -38,7 +38,7 @@ public class Shape {
      * method toString
      * @return 
      */ 
-    @Override
+
     public String toString() {
         return "Shape{" + "color=" + color + ", filled=" + filled + '}';
     }

@@ -19,17 +19,12 @@ public class Circle extends Shape {
     }
     
     /**
-    * Setter radius
-     * @param radius
+    * Setter and Getter radius
     */
     public void setRadius(double radius) {
         this.radius = radius;
     }
 
-    /**
-     * Getter radius
-     * @return 
-     */
     public double getRadius() {
         return radius;
     }

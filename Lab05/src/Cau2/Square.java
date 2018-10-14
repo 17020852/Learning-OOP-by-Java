@@ -17,20 +17,18 @@ public class Square extends Rectangle{
          this.side = side;
     }
     /**
-     * Getter side
-     * @return 
+     * Getter and Setter side 
      */
     public double getSide() {
         return side;
     }
-    /**
-     * Setter side
-     * @param side
-     */
-    
     public void setSide(double side) {
         this.side = side;
     } 
+    /**
+     * Set width and length
+     * @param side 
+     */
     @Override
     public void setWidth(double side) {
         this.setWidth(side);

@@ -20,30 +20,22 @@ public class Rectangle extends Shape{
         this.length = length;
     }
     /**
-     * Getter width
-     * @return 
+     * Getter and Setter width
      */
     public double getWith() {
         return width;
     }
-    /**
-     * Setter Width
-     * @param width
-     */
+    
     public void setWidth(double width) {
         this.width = width;
     }
     /**
-     * Getter Length
-     * @return 
+     * Getter and Setter length
      */
     public double getLength() {
         return length;
     }
-    /**
-     * Setter Length
-     * @param length
-     */
+    
     public void setLength(double length) {
         this.length = length;
     }
