@@ -1,7 +1,7 @@
 package Cau2;
 
 public class Circle extends Shape {
-    private double radius = 1.0;
+    public double radius = 1.0;
     private final double PI = 3.14;
     
     /**
