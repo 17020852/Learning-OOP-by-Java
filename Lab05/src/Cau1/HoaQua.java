@@ -3,10 +3,10 @@ package Cau1;
 
 public class HoaQua {
     private String ten;
-    double gia;
+    private double gia;
     private String xuatXu;
     private String ngayNhap;
-    double soLuong;
+    private double soLuong;
     
 // Constructor
 
