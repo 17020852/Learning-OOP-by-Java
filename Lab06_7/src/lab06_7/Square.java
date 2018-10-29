@@ -5,7 +5,7 @@ package lab06_7;
  *
  * @author linhht-uet
  */
-public class Square extends Shape{
+public class Square extends Rectangle{
     private double side;
     //Constructor
 
