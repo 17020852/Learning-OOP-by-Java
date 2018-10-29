@@ -5,8 +5,9 @@ a. Tìm giá trị lớn nhất của hai số nguyên, giá trị trả về c�
 b. Tìm giá trị nhỏ nhất của của một mảng số nguyên (kích thước mảng <= 100 phần tử)
 
 d. Viết chương trình tính chỉ số BMI theo công thức sau:
-
+```sh
 BMI = Cân nặng (kg) / ( Chiều cao(m) ^ 2)
+```
 ## In ra kết quả đánh giá chỉ số BMI dựa theo công thức trên:
 - Nếu BMI dưới 18.5 thì hiển thị “Thiếu cân”
 - Nếu BMI từ 18.5 đến 24.99 thì hiển thị “Bình thường”
