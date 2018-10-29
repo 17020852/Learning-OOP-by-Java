@@ -8,6 +8,7 @@ Với từng đối tượng, hãy bổ sung các thuộc tính và phương th�
 - Trong biểu đồ trên có tất cả bao nhiêu quan hệ thừa kế (is-a)? Tại sao lớp Circle có thể thừa kế lớp Shape mà không phải lớp Rectangle?
 - Hiện thực các lớp trong sơ đồ trên. Viết hàm main để kiểm tra chương trình.
 - Định nghĩa thêm số PI trong lớp Circle ở chương trình vừa tạo; sau đó sử dụng giá trị PI để tính chu vi và diện tích hình tròn. Biến PI này có nên để final không?
+
 *Yêu cầu:*
 - Tất cả mọi chương trình phải có đủ comment cho từng class, từng hàm
 - Các thuộc tính cần có đủ setter, getter tương ứng
