@@ -25,6 +25,10 @@ public class Layer {
         this.layer= layer;
         this.visiable = visiable;
     }
+
+    Layer(int n) {
+        layer = new ArrayList<>(n);
+    }
     
     //Setter and Getter
 
@@ -44,8 +48,10 @@ public class Layer {
         this.layer = layer;
     }
     
-    public void addShape(Shape shape) {
-        layer.add(shape);
+    public void addlayer(Layer layerr){
+        for (Shape shape : layerr.layer){
+            layer.add(shape);
+        }
     }
     
     public void removeTriangle(){

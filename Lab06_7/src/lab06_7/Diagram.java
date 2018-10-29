@@ -1,10 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab06_7;
-import lab06_7.Layer;
 import java.util.ArrayList;
 /**
  *
