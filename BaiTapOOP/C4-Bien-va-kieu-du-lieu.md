@@ -124,7 +124,7 @@ while ( x < 10 ) {
   ref = new Contact();
   x = x + 1;
 }
-// Dùng rè để cập nhật danh bạ
+// Dùng ref để cập nhật danh bạ
 ```
 Viết xong, Tí hể hả "Bỏng ngô là của tớ rồi!". Dần cười "Tiết kiệm bộ nhớ hơn thật, nhưng cậu phải ăn ké với Sửu thôi."
 
