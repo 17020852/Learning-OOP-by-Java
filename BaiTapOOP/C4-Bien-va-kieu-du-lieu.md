@@ -2,13 +2,19 @@
 ## Bài 1:
 Điền từ thích hợp vào chỗ trống mỗi câu sau:
 a. Biến thực thể thuộc các kiểu char, byte, short, int, long, float, và double đều có giá trị mặc đinh là _______.
+
 b. Biến thực thể thuộc kiểu boolean có giá trị mặc định là _______.
+
 c. Các kiểu dữ liệu trong Java được phân thành hai loại: các kiểu _______ và các kiểu _______.
 ## Bài 2:
 Các phát biểu sau đây đúng hay sai?
+
 a. Có thể gọi phương thức từ một biến kiểu cơ bản.
-b. Các đối tupwngj được tạo ra đều tồn tại trong bộ nhớ heap cho đến khi chương trình kết thúc.
+
+b. Các đối tượng được tạo ra đều tồn tại trong bộ nhớ heap cho đến khi chương trình kết thúc.
+
 c. Lúc nào một đối tượng thuộc diện dùng được cũng cần phải có một tham chiếu chiếu tới nó.
+
 d. Các giá trị cos dạng dấu chấm động trong mã nguồn được hiểu mặc định là các giá trị trực tiếp dấu chấm động thuộc kiểu float.
 ## Bài 3:
 Biến thực thể dùng để làm gì?
